@@ -9,7 +9,6 @@
 	<title>Ryterm</title>
 </svelte:head>
 
-<Header title={"Ryterm"}></Header>
 <section class="mt-20 h-[80dvh] w-screen flex justify-center items-center flex-col gap-4 border-b border-b-neutral-300 dark:border-b-neutral-700">
 	<div class="flex flex-col justify-center items-center w-xl text-center gap-2">
 		<h2 class="text-3xl font-bold"><span class="font-black underline">FOSS</span>, raw and real.</h2>
@@ -30,4 +29,3 @@
 		<p>We don't build just apps, we build code - with love. No crap code. No low performance. Just simplicity and quality.</p>
 	</div>
 </section>
-<Footer></Footer>

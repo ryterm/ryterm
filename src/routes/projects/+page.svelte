@@ -11,7 +11,6 @@
 	<title>Ryterm - Projects</title>
 </svelte:head>
 
-<Header title={"Projects"}></Header>
 <section class="h-[80dvh] w-screen flex justify-center items-center mt-20 gap-8 flex-col border-b border-b-neutral-300 dark:border-b-neutral-700">
 	<div class="flex flex-col justify-center items-center text-center w-xl gap-2">
 		<h2 class="font-bold text-3xl">All our <span class="font-black underline">projects</span> are here.</h2>
@@ -26,4 +25,3 @@
 		</Project>
 	</div>
 </section>
-<Footer></Footer>

@@ -10,7 +10,6 @@
 	<title>Ryterm - About us</title>
 </svelte:head>
 
-<Header title={"About us"}></Header>
 <section class="h-[80dvh] mt-20 w-screen border-b border-b-neutral-300 dark:border-b-neutral-700 flex flex-col justify-center items-center">
 	<div class="flex flex-col justify-center items-center w-xl gap-2 text-center">
 		<h1 class="text-3xl font-bold">Who <span class="font-black underline">we</span> are.</h1>
@@ -49,4 +48,3 @@
 		</People>
 	</div>
 </section>
-<Footer></Footer>
