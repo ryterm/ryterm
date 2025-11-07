@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+		<link rel="icon" href="%sveltekit.assets%/ryterm_tb.png" type="image/x-icon">
+		<script>
+			(function () {
+				const applyTheme = (e) => {
+					document.documentElement.classList.remove("light", "dark");
+					document.documentElement.classList.add(e.matches ? "dark" : "light");
+				};
+
+				const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+				applyTheme(mediaQuery);
+
+				mediaQuery.addEventListener("change", applyTheme);
+			})();
+		</script>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-white text-black dark:text-white dark:bg-neutral-950">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
