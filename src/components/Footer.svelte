@@ -2,7 +2,7 @@
 	import RawButton from "./RawButton.svelte";
 
 </script>
-<footer class="w-screen flex justify-center items-center">
+<footer class="w-full flex justify-center items-center">
 	<div class="flex justify-evenly flex-col-reverse gap-4 sm:flex-row items-center border border-neutral-300 dark:border-neutral-700 rounded-xl w-full m-2 p-2">
 		<div class="flex flex-col justify-center items-center">
 			<h5>Made with love by <RawButton label={"Aury"} func={() => {window.location.href = "https://git.sr.ht/~aury"}}></RawButton>!</h5>

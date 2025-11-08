@@ -9,7 +9,7 @@
 	<title>Ryterm - Projects</title>
 </svelte:head>
 
-<section class="h-[80dvh] w-screen flex justify-center items-center mt-20 gap-8 flex-col border-b border-b-neutral-300 dark:border-b-neutral-700">
+<section class="h-[80dvh] w-full flex justify-center items-center mt-20 gap-8 flex-col border-b border-b-neutral-300 dark:border-b-neutral-700">
 	<div class="flex flex-col justify-center items-center text-center w-xl gap-2">
 		<h2 class="font-bold text-3xl">All our <span class="font-black underline">projects</span> are here.</h2>
 		<p>We don't have too much projects for now, but soon we'll have a bunch of FOSS applications <span class="font-bold underline">for you</span> :)</p>

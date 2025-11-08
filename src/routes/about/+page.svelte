@@ -7,13 +7,13 @@
 	<title>Ryterm - About us</title>
 </svelte:head>
 
-<section class="h-[80dvh] mt-20 w-screen border-b border-b-neutral-300 dark:border-b-neutral-700 flex flex-col justify-center items-center">
+<section class="h-[80dvh] mt-20 w-full border-b border-b-neutral-300 dark:border-b-neutral-700 flex flex-col justify-center items-center">
 	<div class="flex flex-col justify-center items-center w-xl gap-2 text-center">
 		<h1 class="text-3xl font-bold">Who <span class="font-black underline">we</span> are.</h1>
 		<p>We’re not a company — we’re a community. United by <span class="font-bold underline">free</span> and <span class="font-bold underline">open-source</span> software. Real. Honest. Ours.</p>
 	</div>
 </section>
-<section class="min-h-[80dvh] p-8 w-screen border-b border-b-neutral-300 dark:border-b-neutral-700 flex flex-col justify-center items-center gap-8">
+<section class="min-h-[80dvh] p-8 w-full border-b border-b-neutral-300 dark:border-b-neutral-700 flex flex-col justify-center items-center gap-8">
 	<div class="flex flex-col justify-center items-center w-xl gap-2 text-center">
 		<h1 class="text-3xl font-bold">Our development <span class="font-black underline">team</span>.</h1>
 		<p>This is the most important - and beautiful - peoples who contribute to this organization.</p>
