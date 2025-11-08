@@ -1,6 +1,4 @@
 <script>
-	import Footer from "@/components/Footer.svelte";
-	import Header from "@/components/Header.svelte";
 	import PrimaryButton from "@/components/PrimaryButton.svelte";
 	import Project from "@/components/Project.svelte";
 	import SecondaryButton from "@/components/SecondaryButton.svelte";

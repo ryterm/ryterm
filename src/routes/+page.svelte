@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Footer from "@/components/Footer.svelte";
-	import Header from "@/components/Header.svelte";
 	import PrimaryButton from "@/components/PrimaryButton.svelte";
 	import SquareImage from "@/components/SquareImage.svelte";
 </script>

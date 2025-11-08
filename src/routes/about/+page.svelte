@@ -1,9 +1,6 @@
 <script>
-	import Footer from "@/components/Footer.svelte";
-	import Header from "@/components/Header.svelte";
 	import People from "@/components/People.svelte";
 	import SecondaryButton from "@/components/SecondaryButton.svelte";
-
 </script>
 
 <svelte:head>
