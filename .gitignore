@@ -26,3 +26,4 @@ vite.config.ts.timestamp-*
 .zed
 .vscode
 .idea
+.fleet
