@@ -1,5 +1,5 @@
 <script>
-	let { label, func } = $props()
+	let { label, func } = $props();
 </script>
 
 <button class="cursor-pointer underline hover:no-underline" onclick={func}>
