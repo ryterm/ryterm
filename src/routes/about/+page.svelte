@@ -94,7 +94,7 @@
 				></SecondaryButton>
 			{/snippet}
 		</People>
-		<People name={"Ícaro"} role={"Contributor, Full-stack developer"}>
+		<People name={"Ícaro"} role={"Contributor, Web developer"}>
 			{#snippet buttons()}
 				<SecondaryButton
 					label={"Github"}
@@ -108,6 +108,25 @@
 					func={() => {
 						window.location.href =
 							"https://www.youtube.com/@icaroCodes";
+					}}
+					--width={"100%"}
+				></SecondaryButton>
+			{/snippet}
+		</People>
+		<People name={"Gabriel"} role={"Contributor, System Architect"}>
+			{#snippet buttons()}
+				<SecondaryButton
+					label={"X/Twitter"}
+					func={() => {
+						window.location.href = "https://x.com/HexxedBr";
+					}}
+					--width={"100%"}
+				></SecondaryButton>
+				<SecondaryButton
+					label={"Instagram"}
+					func={() => {
+						window.location.href =
+							"https://www.instagram.com/lock_hgabriel";
 					}}
 					--width={"100%"}
 				></SecondaryButton>
