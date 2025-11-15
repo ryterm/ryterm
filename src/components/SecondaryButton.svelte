@@ -1,18 +1,19 @@
 <script>
-	let { label, func } = $props();
+	let { label, link } = $props();
 </script>
 
-<button
-	class="transition-all cursor-pointer select-none flex justify-center items-center border rounded-xl p-2 bg-white dark:bg-neutral-950 border-neutral-300 hover:bg-neutral-200 dark:border-neutral-700 hover:dark:bg-neutral-800"
-	onclick={func}
->
-	{
-		label
-	}
-</button>
+<a href={link}>
+	{label}
+</a>
 
 <style>
-	button {
-		width: var(--width, auto);
+	a {
+		color: black;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		a {
+			color: white;
+		}
 	}
 </style>
