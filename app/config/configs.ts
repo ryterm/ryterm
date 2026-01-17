@@ -41,11 +41,11 @@ export interface People {
 
 export const projects: Project[] = [
     {
-        name: "Kutter (In working)",
-        description: "Hybrid chat application",
+        name: "Kutter (Under Development)",
+        description: "Communities-based chat application",
         buttons: [
             {
-                label: "Github",
+                label: "Github(API)",
                 style: "outline",
                 url: "https://github.com/ryterm/kutter_api",
                 icon: Github
