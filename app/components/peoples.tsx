@@ -19,7 +19,9 @@ export function Peoples() {
             </div>
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {peoples.map((person) => (
+                {[...peoples]
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map((person) => (
                     <Card
                         key={person.name}
                         className="flex h-full flex-col items-center text-center"
