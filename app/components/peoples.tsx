@@ -12,8 +12,8 @@ export function Peoples() {
     return (
         <section className="mx-auto max-w-7xl px-4 py-24">
             <div className="mb-14 text-center">
-                <h2 className="text-3xl font-semibold">Peoples</h2>
-                <p className="mt-2 text-sm text-muted-foreground">
+                <h2 className="text-3xl font-semibold text-white">Peoples</h2>
+                <p className="mt-2 text-sm text-zinc-400">
                     Humans behind the code.
                 </p>
             </div>
@@ -37,11 +37,11 @@ export function Peoples() {
                         </div>
 
                         <CardContent className="flex flex-1 flex-col items-center">
-                            <CardTitle className="text-lg">
+                            <CardTitle className="text-lg text-white">
                                 {person.name}
                             </CardTitle>
 
-                            <p className="mt-2 min-h-[44px] text-sm text-muted-foreground">
+                            <p className="mt-2 min-h-[44px] text-sm text-zinc-400">
                                 {person.description}
                             </p>
                         </CardContent>

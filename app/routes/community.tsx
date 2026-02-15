@@ -12,13 +12,13 @@ export function meta() {
 
 export default function Community() {
     return (
-        <main className="mx-auto max-w-7xl px-4 py-24">
+        <main className="mx-auto max-w-7xl px-4 py-24 bg-background min-h-screen">
 
             <div className="mb-16 text-center">
-                <h1 className="text-4xl font-semibold tracking-tight">
+                <h1 className="text-4xl font-semibold tracking-tight text-white">
                     Community
                 </h1>
-                <p className="mt-3 text-muted-foreground">
+                <p className="mt-3 text-zinc-400">
                     Open spaces to talk, build, and keep the org alive.
                 </p>
             </div>
@@ -26,17 +26,17 @@ export default function Community() {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 <Card className="flex h-full flex-col text-center">
                     <CardHeader className="flex flex-col items-center gap-4 pt-8">
-                        <SiDiscord className="h-12 w-12" />
-                        <CardTitle>Discord</CardTitle>
+                        <SiDiscord className="h-12 w-12 text-white" />
+                        <CardTitle className="text-white">Discord</CardTitle>
                     </CardHeader>
 
                     <CardContent className="flex flex-1 flex-col items-center">
-                        <p className="mb-6 text-sm text-muted-foreground">
+                        <p className="mb-6 text-sm text-zinc-400">
                             Real-time conversations.
                             Questions, decisions, coordination, and daily chaos.
                         </p>
 
-                        <Button asChild>
+                        <Button asChild variant="glass">
                             <a
                                 href="https://discord.gg/RySsQ7Ef3q"
                                 target="_blank"
@@ -50,12 +50,12 @@ export default function Community() {
 
                 <Card className="flex h-full flex-col text-center">
                     <CardHeader className="flex flex-col items-center gap-4 pt-8">
-                        <SiGithub className="h-12 w-12" />
-                        <CardTitle>GitHub</CardTitle>
+                        <SiGithub className="h-12 w-12 text-white" />
+                        <CardTitle className="text-white">GitHub</CardTitle>
                     </CardHeader>
 
                     <CardContent className="flex flex-1 flex-col items-center">
-                        <p className="mb-6 text-sm text-muted-foreground">
+                        <p className="mb-6 text-sm text-zinc-400">
                             Where the work happens.
                             Code, issues and pull requests!
                         </p>
@@ -74,17 +74,17 @@ export default function Community() {
 
                 <Card className="flex h-full flex-col text-center">
                     <CardHeader className="flex flex-col items-center gap-4 pt-8">
-                        <Terminal className="h-12 w-12" />
-                        <CardTitle>IRC</CardTitle>
+                        <Terminal className="h-12 w-12 text-white" />
+                        <CardTitle className="text-white">IRC</CardTitle>
                     </CardHeader>
 
                     <CardContent className="flex flex-1 flex-col items-center">
-                        <p className="mb-6 text-sm text-muted-foreground">
+                        <p className="mb-6 text-sm text-zinc-400">
                             Direct, simple, persistent communication.
                             No distractions. Just text.
                         </p>
 
-                        <Button asChild variant="secondary">
+                        <Button asChild variant="glass">
                             <a
                                 href="irc://irc.libera.chat/ryterm"
                                 target="_blank"

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 export function Footer() {
     return (
         <footer className="w-full flex justify-center items-center">
-            <div className="m-2 flex w-full max-w-7xl flex-col-reverse items-center justify-evenly gap-4 rounded-xl border border-neutral-300 p-4 dark:border-neutral-700 sm:flex-row">
+            <div className="m-2 flex w-full max-w-7xl flex-col-reverse items-center justify-evenly gap-4 rounded-2xl p-4 glass sm:flex-row">
                 <div className="flex flex-col items-center justify-center text-center">
                     <h5 className="text-sm text-muted-foreground">
                         Made with love by{" "}

@@ -20,16 +20,26 @@ import {
 
 import { Button } from "@/components/ui/button"
 import { projects } from "@/config/configs"
+import { LightRays } from "./ui/light-rays"
 
 
 export function ProjectsCards() {
     return (
-        <section className="mx-auto max-w-6xl px-6 py-24">
-            <div className="mb-5 text-center">
-                <h2 className="text-5xl font-semibold tracking-tight poppins-semibold">
+        <section className="relative mx-auto max-w-6xl px-6 py-24 overflow-hidden">
+            <LightRays
+                count={4}
+                speed={20}
+                blur={80}
+                color="rgba(255, 255, 255, 0.06)"
+                length="60vh"
+            />
+
+            <div className="relative z-10">
+                <div className="mb-5 text-center">
+                <h2 className="text-5xl font-semibold tracking-tight poppins-semibold text-white">
                     All our projects here!
                 </h2>
-                <p className="mt-2 text-muted-foreground">
+                <p className="mt-2 text-zinc-400">
                     We don't have too much projects for now, but soon we'll have a bunch of FOSS applications for you ;)
                 </p>
             </div>
@@ -38,7 +48,7 @@ export function ProjectsCards() {
                 {projects.map((project) => (
                     <Card key={project.name}>
                         {project.image && (
-                            <div className="aspect-video w-full overflow-hidden bg-muted">
+                            <div className="aspect-video w-full overflow-hidden bg-white/5">
                                 <img
                                     src={project.image}
                                     alt={project.name}
@@ -51,15 +61,15 @@ export function ProjectsCards() {
                             <CardTitle className="flex items-center gap-2">
                                 {project.name}
                                 {project.deprecated && (
-                                    <div className="bg-yellow-400 pl-1.5 pr-1.5" style={{ borderRadius: "9999px" }}>
-                                        <span className="text-xs text-yellow-800">
+                                    <div className="bg-yellow-500/20 border border-yellow-500/30 pl-1.5 pr-1.5" style={{ borderRadius: "9999px" }}>
+                                        <span className="text-xs text-yellow-400">
                                             deprecated
                                         </span>
                                     </div>
                                 )}
                             </CardTitle>
 
-                            <CardDescription>
+                            <CardDescription className="text-zinc-400">
                                 {project.description}
                             </CardDescription>
                         </CardHeader>
@@ -144,6 +154,7 @@ export function ProjectsCards() {
                         </CardFooter>
                     </Card>
                 ))}
+                </div>
             </div>
         </section>
     )
