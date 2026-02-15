@@ -14,10 +14,10 @@ export function Navbar() {
     ]
 
     return (
-        <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/70 backdrop-blur">
+        <header className="sticky top-0 z-50 w-full glass">
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-6">
 
-                <div className="flex h-8 w-24 items-center justify-center rounded-md border border-border text-sm font-semibold">
+                <div className="flex h-10 w-24 items-center justify-center rounded-xl border border-white/10 glass text-sm font-semibold">
                     Ryterm
                 </div>
 

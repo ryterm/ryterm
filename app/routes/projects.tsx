@@ -9,7 +9,7 @@ export function meta() {
 
 export default function Projects() {
     return (
-        <main>
+        <main className="bg-background min-h-screen">
             <ProjectsCards />
         </main>
     )

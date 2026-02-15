@@ -9,13 +9,13 @@ export function meta() {
 
 export default function AboutUS() {
     return (
-        <main>
+        <main className="bg-background min-h-screen">
             <section className="mb-20 text-center mt-12">
-                <h1 className="text-4xl font-semibold tracking-tight">
+                <h1 className="text-4xl font-semibold tracking-tight text-white">
                     Who we are
                 </h1>
 
-                <p className="mt-6 text-muted-foreground max-w-2xl mx-auto">
+                <p className="mt-6 text-zinc-400 max-w-2xl mx-auto">
                     We are not a company. We are a community.
                     <br />
                     United by free and open source software.

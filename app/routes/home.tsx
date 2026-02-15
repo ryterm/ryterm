@@ -9,7 +9,7 @@ export function meta() {
 
 export default function Home() {
   return (
-    <main className="dark bg-stone-950">
+    <main className="bg-background">
       <Hero />
     </main>
   );

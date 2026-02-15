@@ -4,29 +4,29 @@ import { Archive, GithubSolid } from "@mynaui/icons-react";
 
 export function Hero() {
     return (
-        <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-background">
+        <section className="relative flex items-center justify-center overflow-hidden bg-background">
             <LightRays
                 count={6}
                 speed={18}
                 blur={56}
-                color="rgba(255, 255, 255, 0.18)"
+                color="rgba(255, 255, 255, 0.08)"
                 length="85vh"
             />
 
-            <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
+            <div className="relative z-10 mx-auto flex min-h-screen flex-col items-center justify-center max-w-3xl px-6 text-center">
                 <h1 className="text-6xl font-semibold tracking-tight md:text-8xl poppins-semibold">
-                    <span className="bg-linear-to-r from-white/90 to-white/50 bg-clip-text text-transparent">
+                    <span className="text-white">
                         Ryterm
                     </span>
                 </h1>
 
 
-                <p className="mt-6 text-muted-foreground md:text-lg">
+                <p className="mt-6 text-white/50 md:text-lg">
                     No ads, no dark patterns. Just the roots of free and open source software.
                 </p>
 
-                <div className="mt-8 flex justify-center gap-9">
-                    <Button size="lg" className="cursor-pointer" onClick={() => {
+                <div className="mt-8 flex justify-center gap-4">
+                    <Button size="lg" variant="glass" className="cursor-pointer" onClick={() => {
                         window.location.href = "/projects"
                     }}>
                         <Archive className="size-5" />
