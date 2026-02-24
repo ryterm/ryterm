@@ -77,6 +77,25 @@ export const peoples: People[] = [
         ]
     },
     {
+        name: "Vitor",
+        description: "Contributor, Web developer"
+        image: Vitor,
+        button: [
+            {
+                label: "Website",
+                style: "primery",
+                url: "https://www.h4kv.com/",
+                icon: Globe
+            },
+            {
+                label: "Github",
+                style: "outline",
+                url: "https:/github.com/h411v/",
+                icon: GithubSolid
+            }
+        ]
+    },
+    {
         name: "Alice",
         description: "Co-founder, Back-end developer",
         image: Alice,
@@ -92,25 +111,6 @@ export const peoples: People[] = [
                 style: "outline",
                 url: "https://x.com/crowzz97",
                 icon: TwitterSolid
-            }
-        ]
-    },
-    {
-        name: "Takasaki",
-        description: "Contributor, Mobile developer",
-        image: Takasaki,
-        buttons: [
-            {
-                label: "Github",
-                style: "primary",
-                url: "https://git.sr.ht/~aury",
-                icon: GithubSolid
-            },
-            {
-                label: "Discord (takasaki.)",
-                style: "outline",
-                url: "https://discord.com/users/274289097689006080",
-                icon: SiDiscord
             }
         ]
     },
