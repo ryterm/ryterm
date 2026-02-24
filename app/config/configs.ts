@@ -84,7 +84,7 @@ export const peoples: People[] = [
         buttons: [
             {
                 label: "Website",
-                style: "primery",
+                style: "primary",
                 url: "https://www.h4kv.com/",
                 icon: Globe
             },
